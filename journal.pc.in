@@ -1,0 +1,11 @@
+prefix=@PREFIX@
+exec_prefix=@EXEC_PREFIX@
+libdir=@LIBDIR@
+includedir=@INCLUDEDIR@
+
+Name: journal
+Description: General purpose utilities created for event logging
+Version: @VERSION@
+Requires: @REQUIRED_PACKAGE@
+Libs: -L@LIBDIR@ -ljournal
+Cflags: -I@INCLUDEDIR@ -Wl,--rpath -Wl,@LIBDIR@/journal
