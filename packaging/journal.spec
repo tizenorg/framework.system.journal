@@ -3,7 +3,7 @@ Summary:  Common libraries for all event log, Exported API sets
 Version:  0.1.0
 Release:  1
 Group:    Framework/system
-License:  Apache-2.0
+License:  Apache License, Version 2.0
 Source0:  %{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
